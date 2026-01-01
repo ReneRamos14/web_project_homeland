@@ -1,0 +1,96 @@
+/* estilos base (desktop 1280px) */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 16px 64px;
+  text-align: center;
+}
+
+.header__title {
+  margin: 0;
+  max-width: 720px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.header__subtitle {
+  margin: 32px 0 64px;
+  max-width: 720px;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.header__image {
+  width: 100%;
+  max-width: 984px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+  .header__title {
+    font-size: 48px;
+  }
+
+  .header__subtitle {
+    font-size: 20px;
+    margin-bottom: 48px;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 544px) {
+  .header {
+    padding-bottom: 40px;
+  }
+
+  .header__title {
+    font-size: 32px;
+  }
+
+  .header__subtitle {
+    font-size: 16px;
+    margin: 16px 0 40px;
+  }
+}
+
+/* Desktop grande (más de 1024px) */
+.header__title {
+  font-size: 64px;
+}
+
+.header__subtitle {
+  font-size: 24px;
+}
+
+/* Tablet (entre 544px y 1024px) */
+@media screen and (max-width: 1024px) {
+  .header__title {
+    font-size: 48px; /* más pequeño que en desktop */
+  }
+
+  .header__subtitle {
+    font-size: 20px;
+    margin-bottom: 48px;
+  }
+}
+
+/* Mobile (menos de 544px) */
+@media screen and (max-width: 544px) {
+  .header {
+    padding-bottom: 40px;
+  }
+
+  .header__title {
+    font-size: 32px; /* aún más pequeño para pantallas chicas */
+  }
+
+  .header__subtitle {
+    font-size: 16px;
+    margin: 16px 0 40px;
+  }
+}
+
