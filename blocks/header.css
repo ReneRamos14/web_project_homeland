@@ -69,7 +69,7 @@
 /* Tablet (entre 544px y 1024px) */
 @media screen and (max-width: 1024px) {
   .header__title {
-    font-size: 48px; /* más pequeño que en desktop */
+    font-size: 48px; 
   }
 
   .header__subtitle {
@@ -85,7 +85,7 @@
   }
 
   .header__title {
-    font-size: 32px; /* aún más pequeño para pantallas chicas */
+    font-size: 32px; 
   }
 
   .header__subtitle {
