@@ -1,13 +1,10 @@
-.content {
-  max-width: 1280px;
-  margin: 0 auto;
+.intro {
+  max-width: 830px;
+  margin: 92px auto 132px;
 }
 
-.intro {
-  width: 830px;
-  margin: 92px auto 0;
-  margin-top: 1269px;
-  margin-left: 148px;
+.intro__content {
+  max-width: 690px;
 }
 
 .intro__title {
