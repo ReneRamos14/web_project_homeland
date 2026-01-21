@@ -7,6 +7,10 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  margin: 0;
+}
+
 
 .page {
   min-width: 320px;
@@ -44,7 +48,7 @@ body {
 .header__logo {
   width: 50px;
   height: auto;
-  margin-bottom: 91.06px; /* ✅ separación EXACTA Figma */
+  margin-bottom: 91.06px;
   display: block;
 }
 
@@ -79,7 +83,7 @@ body {
 .intro {
   max-width: 830px;
   margin-top: 0px;
-  margin-left: 148px; /* ← margen izquierdo según Figma */
+  margin-left: 148px; 
   margin-top: 0;
 
 
