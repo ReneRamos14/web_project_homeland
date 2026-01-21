@@ -17,7 +17,7 @@
 .header__title {
   display: block;
   width: 100%;
-  max-width: 400px;
+  max-width: 455px;
   white-space: normal;
   text-align: center;
   font-size: px;
@@ -32,7 +32,7 @@
 
 .header__subtitle {
   margin: 32px 0 64px;
-  max-width: 720px;
+  max-width: 480px;
   font-size: 24px;
   line-height: 1.4;
 }
