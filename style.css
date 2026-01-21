@@ -60,7 +60,7 @@ body {
 .header__title {
   display: block;
   width: 100%;
-  max-width: none;
+  max-width: 400px;
   white-space: normal;
   text-align: center;
   font-size: 96px;

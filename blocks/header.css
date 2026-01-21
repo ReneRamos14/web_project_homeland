@@ -10,14 +10,14 @@
 .header__logo {
   width: 170px;
   height: auto;
-  margin-bottom: 10px; /* ✅ separación EXACTA Figma */
+  margin-bottom: 10px; 
   display: block;
 }
 
 .header__title {
   display: block;
   width: 100%;
-  max-width: none;
+  max-width: 400px;
   white-space: normal;
   text-align: center;
   font-size: px;
