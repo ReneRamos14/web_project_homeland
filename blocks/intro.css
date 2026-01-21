@@ -1,10 +1,13 @@
 .intro {
   max-width: 830px;
   margin: 92px auto 132px;
+  margin-top: 0;
 }
 
 .intro__content {
   max-width: 690px;
+  margin-top: 0;
+  
 }
 
 .intro__title {
@@ -27,6 +30,7 @@
 .intro__quote-author {
   font-size: 14px;
   display: block;
+  text-align: right;
 }
 
 .intro__text {

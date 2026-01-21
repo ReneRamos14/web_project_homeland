@@ -1,14 +1,91 @@
-.content {
-  max-width: 1280px;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #2a2c2f;
+  overflow-x: hidden;
+}
+
+
+.page {
+  min-width: 320px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2a2c2f;
+  color: #ffffff;
   margin: 0 auto;
 }
 
-.intro {
-  width: 830px;
-  margin: 92px auto 0;
-  margin-top: 1269px;
-  margin-left: 148px;
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 16px 32px;
+  text-align: center;
 }
+
+
+.header__image {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+
+
+.header__logo-wrapper {
+  height: auto;
+}
+
+
+.header__logo {
+  width: 50px;
+  height: auto;
+  margin-bottom: 91.06px; /* ✅ separación EXACTA Figma */
+  display: block;
+}
+
+.header__spacer {
+  height: 91.06px;
+}
+
+
+.header__title {
+  display: block;
+  width: 100%;
+  max-width: none;
+  white-space: normal;
+  text-align: center;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.header__title .break {
+  display: block;
+}
+
+
+.content {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+
+.intro {
+  max-width: 830px;
+  margin-top: 0px;
+  margin-left: 148px; /* ← margen izquierdo según Figma */
+  margin-top: 0;
+
+
+}
+
+
 
 .intro__title {
   font-size: 32px;
@@ -19,6 +96,7 @@
 
 .intro__quote {
   margin: 0 0 24px;
+  text-align: left;
 }
 
 .intro__quote-text {
@@ -38,6 +116,20 @@
   margin-bottom: 24px;
 }
 
+.footer {
+  padding: 32px 0;
+}
+
+.footer__copyright {
+  max-width: 984px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
   .intro {
     width: calc(100% - 32px);
@@ -49,3 +141,17 @@
     font-size: 24px;
   }
 }
+
+@@media screen and (min-width: 1280px) {
+  .header__logo {
+    margin-bottom: 60px;
+  }
+}
+
+
+  .header__title,
+  .header__subtitle {
+    max-width: 720px;
+  }
+
+

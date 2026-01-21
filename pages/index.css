@@ -10,3 +10,6 @@
 @import url("../blocks/footer.css");
 
 
+body {
+  margin: 0;
+}
